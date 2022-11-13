@@ -73,7 +73,7 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
 
     // Hilt testing dependencies
-    androidTestImplementation "com.google.dagger:hilt-android-testing:2.4.0"
+    androidTestImplementation "com.google.dagger:hilt-android-testing:$hilt_version"
     // Make Hilt generate code in the androidTest folder
     kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hilt_version"
 }
